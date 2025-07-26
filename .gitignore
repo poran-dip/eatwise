@@ -1,0 +1,6 @@
+# IDE junk
+.vscode/
+
+# macOS junk
+.DS_Store
+Thumbs.db
