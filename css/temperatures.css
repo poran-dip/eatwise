@@ -1,0 +1,138 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; 
+  margin-top: 16px; 
+  margin-bottom: 16px; 
+}
+
+.header img {
+  width: 50px;
+  height: auto;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #4fc3f7;
+  text-shadow: 0 0 8px rgba(79, 195, 247, 0.3); 
+}
+
+h1 {
+  text-align: center;
+  color: #4fc3f7;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(79, 195, 247, 0.3);
+}
+
+.table-container {
+  flex-grow: 1;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #2a2a2a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background-color: #303030;
+  color: #4fc3f7;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+  background-color: #252525;
+}
+
+tr:hover {
+  background-color: #303030;
+}
+
+@media (max-width: 600px) {
+  .table-container {
+    overflow-x: auto;
+    border-radius: 4px;
+  }
+
+  table {
+    min-width: 400px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 0.8em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .header h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+  }
+
+  .header img {
+    width: 36px;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 0.7em;
+  }
+
+  table {
+    min-width: 350px;
+  }
+
+  .table-container {
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 385px) {
+  td:first-child {
+    max-width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
