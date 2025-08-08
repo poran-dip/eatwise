@@ -31,6 +31,22 @@ body {
   text-shadow: 0 0 8px rgba(79, 195, 247, 0.3); 
 }
 
+.back-button {
+  color: #4fc3f7;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 4px;
+  margin-right: 12px;
+  transition: color 0.2s ease;
+}
+
+.back-button:hover {
+  color: #82d4fa;
+}
+
 h1 {
   text-align: center;
   color: #4fc3f7;
@@ -129,6 +145,10 @@ tr:hover {
 }
 
 @media (max-width: 385px) {
+  .logo-img {
+    display: none;
+  }
+
   td:first-child {
     max-width: 60px;
     white-space: nowrap;
