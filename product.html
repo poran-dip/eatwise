@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EatWise</title>
+    <link rel="icon" href="/webpage2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel = "stylesheet" href = "product.css">
+<body>
+    <div id="a">
+        <a href="product.html" target="_blank">
+            <img id = "b" src="/webpage2.png">
+        </a>
+    </div>
+    <h1>EatWise</h1>
+    <br>
+    <div class="list-container" id="item-list">
+        <!-- Item cards will be dynamically added here -->
+    </div>
+    
+    <div class="bottom-buttons">
+        <a href="/optimal_temperatures.html" class="bottom-button" target = "_blank">Optimal Temperature</a>
+        <div id="optimal-temp" class="bottom-button">33°F</div>
+        <button class="bottom-button add-item-button" onclick="addItemCard()">+ Add Item</button>
+    </div>
+    <script src = "product.js"></script>
+</body>
+</html>
