@@ -111,7 +111,9 @@ EatWise demonstrates how simple algorithms can solve everyday problems with real
 
 ## 🔮 Future Development
 
-The concept behind EatWise is being evolved into **[CryoKeep](https://github.com/poran-dip/cryokeep)** - a more advanced smart cooling system with IoT integration, machine learning predictions, and commercial applications.
+The concept behind EatWise has potential for further expansion, including IoT integration, machine learning-based predictions, and smart appliance automation.
+
+(This is currently a conceptual direction and not an active project.)
 
 ## 📜 License
 
